@@ -1,5 +1,6 @@
 package entities;
 
+import enums.Department;
 import enums.Priority;
 import enums.Status;
 import jakarta.persistence.GeneratedValue;
@@ -21,7 +22,7 @@ public class Ticket {
 
     private Status status;
 
-    private String department;
+    private Department tagDepartment;
 
     private String originTeam;
 
