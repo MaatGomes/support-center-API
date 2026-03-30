@@ -1,19 +1,23 @@
-package entities;
+package support_center_API.entities;
 
-import enums.Department;
-import enums.Priority;
-import enums.Status;
+import support_center_API.enums.Department;
+import support_center_API.enums.Priority;
+import support_center_API.enums.Status;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import java.time.Instant;
 import java.util.UUID;
 
 @Entity
 @AllArgsConstructor
+@NoArgsConstructor
+@Getter
 public class Ticket {
 
     @Id

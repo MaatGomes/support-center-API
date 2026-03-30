@@ -1,4 +1,4 @@
-package enums;
+package support_center_API.enums;
 
 public enum Department {
 

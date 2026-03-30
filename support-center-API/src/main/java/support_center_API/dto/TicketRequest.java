@@ -1,7 +1,7 @@
-package dto;
+package support_center_API.dto;
 
-import enums.Department;
-import enums.Priority;
+import support_center_API.enums.Department;
+import support_center_API.enums.Priority;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
