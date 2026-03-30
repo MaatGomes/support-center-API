@@ -36,6 +36,7 @@ public class TicketService {
         ticketResponse.setInitialDate(initialDate);
         ticketResponse.setStatus(status);
         ticketResponse.setTagDepartment(tagDepartment);
+        ticketResponse.setOriginTeam(originTeam);
         ticketResponse.setPriority(priority);
 
         return ticketResponse;

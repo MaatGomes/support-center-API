@@ -24,7 +24,7 @@ public class GlobalExceptionHandler {
 
             String fieldName = e.getPath().isEmpty()
                     ? "campo desconhecido"
-                    : e.getPath().get(0).getPropertyName();
+                    : e.getPath().getFirst().getPropertyName();
 
             Object invalidValue = e.getValue();
 
